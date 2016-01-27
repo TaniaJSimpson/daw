@@ -10,5 +10,14 @@
 
 <h1>Què us agrada més?</h1>
 
+<form action="">
+  <input type="radio" name="beguda" value="cerveza"> Cerveza<br>
+  <input type="radio" name="beguda" value="cafe"> Cafè<br>
+  <input type="radio" name="beguda" value="vi"> Vi<br>
+  <input type="radio" name="beguda" value="carajillo"> "Carajillo"
+</form>
+
+ <button type="button">Vota!</button> 
+
 </body>
 </html>
