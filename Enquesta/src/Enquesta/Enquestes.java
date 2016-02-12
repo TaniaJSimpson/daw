@@ -29,7 +29,7 @@ public class Enquestes extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
-		response.sendRedirect("/enquestaRedirect.jps");
+		response.sendRedirect("/Enquesta/enquestaRedirect.jsp");
 	}
 
 	/**
