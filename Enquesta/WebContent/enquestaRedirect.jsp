@@ -8,6 +8,14 @@
 </head>
 <body>
 
+	<% 
+	int [] mArray = ((int[]) getServletContext().getAttribute("resultats"));
+	String[] nArray = {"Cerveza", "Cafe", "Vi", "Carajillo"};
+	
+	for(int i=0; i<mArray.length; i++){
+		out.println("<p>"+nArray[i]+": "+mArray[i]+"</p>");
+	}
+	%>
 
 </body>
 </html>
